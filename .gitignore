@@ -1,0 +1,6 @@
+sample-grails/target/
+sample-griffon/staging/
+sample-griffon/wrapper/
+sample-groovy/.gradle/
+sample-groovy/build/
+sample-groovy/settings.gradle
