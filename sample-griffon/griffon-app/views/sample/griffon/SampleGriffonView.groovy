@@ -1,5 +1,7 @@
 package sample.griffon
 import sampleg.SampleEnum
+import sampleg.RegularClazz
+import sampleg.domain.Book
 
 application(title: 'sample-griffon',
   preferredSize: [320, 240],
@@ -11,5 +13,11 @@ application(title: 'sample-griffon',
                imageIcon('/griffon-icon-32x32.png').image,
                imageIcon('/griffon-icon-16x16.png').image]) {
     // add content here
-    label('Content Goes Here'+SampleEnum.VALUE1) // delete me
+    vbox{
+      label("Using enums: ${SampleEnum.VALUE1}")    
+      Book b= new Book(title:"Lallala",author:"Hhhhhh")
+      label("Using domain: ${b}")    
+      label("Using src: ${new RegularClazz().helloWorld()}")
+    }
+    
 }

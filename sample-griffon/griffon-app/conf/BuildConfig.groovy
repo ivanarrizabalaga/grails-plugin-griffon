@@ -175,7 +175,7 @@ griffon.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime' or 'test' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.5'
-        compile 'com.nortia.sample:sample-grails:1.0-SNAPSHOT'
+        compile 'com.nortia.sample:sample-shared:1.0-SNAPSHOT'
     }
 }
 

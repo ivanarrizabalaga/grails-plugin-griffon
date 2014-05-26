@@ -1,0 +1,11 @@
+<plugin name='sample-shared' version='1.0-SNAPSHOT' grailsVersion='2.3 &gt; *'>
+  <author>Ivan Arrizabalaga</author>
+  <title>Sample Grails Plugin</title>
+  <description>An attempt to create a compatible grails plugin with a groovy project.</description>
+  <documentation>http://grails.org/plugin/sample-shared</documentation>
+  <type>sampleg.grails.SampleSharedGrailsPlugin</type>
+  <packaging>binary</packaging>
+  <resources>
+    <resource>sampleg.domain.Book</resource>
+  </resources>  
+</plugin>

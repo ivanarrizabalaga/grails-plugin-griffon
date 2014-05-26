@@ -1,0 +1,7 @@
+package sampleg.grails
+
+class SampleSharedGrailsPlugin {
+    def groupId = "com.nortia.sample"
+    def version = "1.0-SNAPSHOT"
+    def packaging = "binary"
+}

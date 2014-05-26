@@ -1,10 +1,12 @@
 import sampleg.SampleEnum
-import com.nortia.sample.Other
+import sampleg.RegularClazz
+import sampleg.domain.Book
 
 class Library {
 	static void main(String [] args){
-		println SampleEnum.VALUE1
-		Other o= new Other(name:"Pepe")
-		println "Other: ${o.name}"
+		println "==>${SampleEnum.VALUE1}"
+		Book b= new Book(title:"Lallala",author:"Hhhhhh")
+		println "==>$b"
+		println "==>${new RegularClazz().helloWorld()}"
 	}
 }
